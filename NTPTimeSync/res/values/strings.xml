@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NTP Clock</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">About</string>
+    
+    <string name="action_select_timer">Select Timer to Sync</string>
+    <string name="action_select_server">Select NTP Server</string>
+    <string name="action_sync">Sync Time</string>
+    <string name="button_sync">Sync</string>
+    <string name="sync_success">Successful Synchronization</string>
+    <string name="sync_progress">Synchronizing NTP Time</string>
+    
+</resources>

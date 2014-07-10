@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duytuan.ntptimesync.view.DigitalClock
+	    android:id="@+id/digital_clock"
+	    android:layout_width="400dp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:textSize="70sp"
+	    android:textColor="#00FF00"
+	    android:text="00:00:00"
+	    android:gravity="center"
+	    android:shadowColor="#00FF00"
+	    android:shadowRadius="16"
+	    android:background="@drawable/bg_digital_clock">
+	</com.duytuan.ntptimesync.view.DigitalClock>
+</merge>

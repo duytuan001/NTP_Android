@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ntptimesync.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="collapseActionView" />
+    
+    <item android:id="@+id/action_select_timer"
+          android:icon="@android:drawable/stat_notify_sync"
+          android:title="@string/action_select_timer"
+          app:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/action_select_server"
+          android:icon="@android:drawable/ic_menu_mapmode"
+          android:title="@string/action_select_server"
+          app:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/action_sync"
+          android:icon="@android:drawable/ic_menu_rotate"
+          android:title="@string/action_sync"
+          app:showAsAction="never" />
+
+</menu>
